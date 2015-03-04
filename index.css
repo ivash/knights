@@ -1,0 +1,49 @@
+body {
+	background-color: #F8F8FF;
+}
+
+#header {
+	color:black;
+}
+
+#messageArea {
+	color: #FF4500;
+}
+#scoreArea {
+	color: black;
+}
+#newGameButton {
+	color: black;
+}
+
+table {
+	border-spacing: 0px;
+}
+td {
+	width: 90px;
+	height: 90px;
+	border: solid 1px;
+}
+td.black {
+	width: 90px;
+	height: 90px;
+	border: solid 1px;
+	background: url("black.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+td.white {
+	width: 90px;
+	height: 90px;
+	border: solid 1px;
+	background: url("white.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.blackKnight {
+	background: url("blackKnight.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+.whiteKnight {
+	background: url("whiteKnight.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
