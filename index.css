@@ -15,12 +15,10 @@ body {
 }
 #newGameButton {
 	color: black;
+	font-size: 16px;
 }
 
-table {
-	border: solid 5px ;
-	
-}
+
 td {
 	width: 90px;
 	height: 90px;

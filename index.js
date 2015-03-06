@@ -41,7 +41,7 @@ var view = {
 
 function createBoard (tn) {
 	var no = [];
-	var board_html = '<table class="table table-hover" border="1">';
+	var board_html = '<table class="table table-hover" border="5">';
 
 	for (var i = 0; i < tn; i++) {
 		board_html += '<tr>';
@@ -147,7 +147,7 @@ function clickKnight(eventObj) {
 						}
 						if((gameState.length == 0) && isGameEnd())
 							view.displayMessage("You lost");
-						view.displayScore("SCORE:" + score);
+						view.displayScore("SCORE : " + score);
 					   
 						if(gameState.length == tn*tn-2) {
 							view.displayKnight();	
@@ -186,7 +186,7 @@ function clickKnight(eventObj) {
 						if((gameState.length == 0) && isGameEnd())
 							view.displayMessage("You lost");
 							
-						view.displayScore("SCORE:" + score);
+						view.displayScore("SCORE : " + score);
 						if(gameState.length == tn*tn-2) {
 							view.displayKnight();	
 						}
@@ -208,7 +208,7 @@ function clickKnight(eventObj) {
 					gameState.push(cellPos);        // Add previuos cell id to gameState array;
 					cellPos = "free";
 					cellType = "free";
-					view.displayMessage("");
+					view.displayMessage("Move the <strong>KNIGHTS</strong> to their corresponding cells.");
 					//console.log("id = " + id);
 					gameState.splice(index,1);       // Remove just onclicked cell id from gameState array;
 					//console.log(gameState);
@@ -235,7 +235,7 @@ function clickKnight(eventObj) {
 				document.getElementById(cellPos).style.border = "solid 1px";
 				cellPos = "free";
 				cellType = "free";
-				view.displayMessage("");
+				view.displayMessage("Move the <strong>KNIGHTS</strong> to their corresponding cells.");
 			}
 			else {
 				view.displayMessage("You are not allowed that move!");
