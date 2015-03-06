@@ -147,7 +147,7 @@ function clickKnight(eventObj) {
 						}
 						if((gameState.length == 0) && isGameEnd())
 							view.displayMessage("You lost");
-						view.displayScore("SCORE : " + score);
+						view.displayScore("SCORE  " + score);
 					   
 						if(gameState.length == tn*tn-2) {
 							view.displayKnight();	
@@ -186,7 +186,7 @@ function clickKnight(eventObj) {
 						if((gameState.length == 0) && isGameEnd())
 							view.displayMessage("You lost");
 							
-						view.displayScore("SCORE : " + score);
+						view.displayScore("SCORE  " + score);
 						if(gameState.length == tn*tn-2) {
 							view.displayKnight();	
 						}
@@ -293,7 +293,7 @@ function isGameEnd() {
 //isGameEnd();
 
 view.displayKnight();
-view.displayScore("SCORE : " + score);
+view.displayScore("SCORE  " + score);
 }
 
 function iniliaze() {
