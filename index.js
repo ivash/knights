@@ -106,7 +106,7 @@ function clickKnight(eventObj) {
 		if(cellClass != null) {
 			cellType = cellClass;
 			cellPos = cell.getAttribute("id");
-			document.getElementById(cellPos).style.border = "3px solid #FF0000";
+			document.getElementById(cellPos).style.border = "3px solid #F74906";
 		}
 	}
 	else {
