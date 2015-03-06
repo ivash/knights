@@ -15,9 +15,11 @@ body {
 }
 #newGameButton {
 	color: black;
-	font-size: 16px;
+	font-size: 14px;
 }
-
+#game_above {
+	padding-bottom: 10px;
+}
 
 td {
 	width: 90px;
