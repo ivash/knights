@@ -3,13 +3,13 @@ body {
 }
 
 #header {
-	color: #CB8C1D;
+	color: #776e65;
 	font-size: 60px;
 	font-family: times, Times New Roman, times-roman, georgia, serif
 }
 
 #messageArea {
-	color: #BD3632;
+	color: #776e65;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	font-size: 16px;
 }
@@ -17,13 +17,13 @@ body {
 	color: #F8F8FF;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	font-size: 17px;
-	background-color: #CB8C1D;
+	background-color: #776e65;
 }
 #newGameButton {
 	color: #F8F8FF;
 	font-size: 14px;
 	font-family:  times, Times New Roman, times-roman, georgia, serif;
-	background-color: #CB8C1D;
+	background-color: #f2b179;
 }
 #game_above {
 	padding-bottom: 10px;
@@ -59,7 +59,7 @@ strong.important {
 	margin-bottom: 20px;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	font-size: 18px;
-	color: #BD3632;
+	color: #776e65;
 }
 
 .blackKnight {
@@ -70,3 +70,9 @@ strong.important {
 	background: url("whiteKnight.jpg") no-repeat center center;
 	background-size: 100% 100%;
 }
+
+hr {
+  border: none;
+  border-bottom: 1px solid #d8d4d0;
+  margin-top: 20px;
+  margin-bottom: 30px; }
