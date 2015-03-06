@@ -4,6 +4,7 @@ body {
 
 #header {
 	color:black;
+	font-size: 60px;
 }
 
 #messageArea {
@@ -17,7 +18,8 @@ body {
 }
 
 table {
-	border-spacing: 0px;
+	border: solid 5px ;
+	
 }
 td {
 	width: 90px;
