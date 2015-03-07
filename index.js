@@ -41,7 +41,7 @@ var view = {
 
 function createBoard (tn) {
 	var no = [];
-	var board_html = '<table class="table table-hover" border="5">';
+	var board_html = '<table class="table" border="5">';
 
 	for (var i = 0; i < tn; i++) {
 		board_html += '<tr>';

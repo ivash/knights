@@ -1,10 +1,9 @@
 body {
-	background-color: #F8F8FF;
+	background-color: #f7f7f7;
 }
 
 #header {
 	color: #776e65;
-	
 	font-family: times, Times New Roman, times-roman, georgia, serif
 }
 
@@ -38,7 +37,7 @@ td.black {
 	width: 90px;
 	height: 90px;
 	border: solid 1px;
-	background: url("black.jpg") no-repeat center center;
+	background-color: #383838;
 	background-size: 100% 100%;
 }
 
@@ -46,7 +45,7 @@ td.white {
 	width: 90px;
 	height: 90px;
 	border: solid 1px;
-	background: url("white.jpg") no-repeat center center;
+	background-color: #dddddd;
 	background-size: 100% 100%;
 }
 strong.important {
