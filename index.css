@@ -1,3 +1,4 @@
+
 body {
 	background-color: #f7f7f7;
 }
@@ -29,21 +30,21 @@ body {
 }
 
 td {
-	width: 90px;
-	height: 90px;
+	width: 85px;
+	height: 85px;
 	border: solid 1px;
 }
 td.black {
-	width: 90px;
-	height: 90px;
+	width: 85px;
+	height: 85px;
 	border: solid 1px;
 	background-color: #383838;
 	background-size: 100% 100%;
 }
 
 td.white {
-	width: 90px;
-	height: 90px;
+	width: 85px;
+	height: 85px;
 	border: solid 1px;
 	background-color: #dddddd;
 	background-size: 100% 100%;
@@ -74,4 +75,85 @@ hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
   margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+}
+
+@media (max-width: 480px) {
+	#header {
+	color: #776e65;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 30px;
+	}
+
+	#messageArea {
+		color: #776e65;
+		font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 16px;
+	}
+	#scoreArea {
+		color: #F8F8FF;
+		font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 15px;
+		background-color: #776e65;
+		height: 50px;
+	}
+	#newGameButton {
+		color: #F8F8FF;
+		font-size: 11px;
+		font-family:  times, Times New Roman, times-roman, georgia, serif;
+		background-color: #f2b179;
+		width: 72px;
+	}
+
+	td {
+		width: 55px;
+		height: 55px;
+		border: solid 1px;
+	}
+	td.black {
+		width: 55px;
+		height: 55px;
+		border: solid 1px;
+		background-color: #383838;
+		background-size: 100% 100%;
+	}
+
+	td.white {
+		width: 55px;
+		height: 55px;
+		border: solid 1px;
+		background-color: #dddddd;
+		background-size: 100% 100%;
+	}
+	
+	.game-explanation {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 16px;
+	color: #776e65;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    td {
+		width: 77px;
+		height: 77px;
+		border: solid 1px;
+	}
+	td.black {
+		width: 77px;
+		height: 77px;
+		border: solid 1px;
+		background-color: #383838;
+		background-size: 100% 100%;
+	}
+
+	td.white {
+		width: 77px;
+		height: 77px;
+		border: solid 1px;
+		background-color: #dddddd;
+		background-size: 100% 100%;
+	}
+}

@@ -44,7 +44,7 @@ function createBoard (tn) {
 	var board_html = '<table class="table" border="5">';
 
 	for (var i = 0; i < tn; i++) {
-		board_html += '<tr>';
+		board_html += '<tr ">';
 		for (var j = 0; j < tn; j++) {
 			board_html += '<td></td>';
 			no.push(i + '' + j);
