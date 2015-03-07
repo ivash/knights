@@ -5,7 +5,8 @@ body {
 
 #header {
 	color: #776e65;
-	font-family: times, Times New Roman, times-roman, georgia, serif
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 60px;
 }
 
 #messageArea {
@@ -140,6 +141,11 @@ hr {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
+	#header {
+		color: #776e65;
+		font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 18px;
+	}	
     td {
 		width: 77px;
 		height: 77px;
