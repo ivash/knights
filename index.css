@@ -102,9 +102,13 @@ hr {
 		font-size: 9px;
 		font-family:  times, Times New Roman, times-roman, georgia, serif;
 		background-color: #f2b179;
-		width: 74px;
+		
 	}
 
+	#newGameText {
+		margin: 1px;
+	}
+	
 	td {
 		width: 55px;
 		height: 55px;
