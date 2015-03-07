@@ -103,7 +103,7 @@ function clickKnight(eventObj) {
 	var cellClass = cell.getAttribute("class");
 	
 	if(cellPos == "free") {
-		if(cellClass != null) {
+		if((cellClass != null) && (cellClass != "black") && (cellClass != "white")) {
 			cellType = cellClass;
 			cellPos = cell.getAttribute("id");
 			document.getElementById(cellPos).style.border = "3px solid #F74906";
