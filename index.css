@@ -88,21 +88,21 @@ hr {
 	#messageArea {
 		color: #776e65;
 		font-family: times, Times New Roman, times-roman, georgia, serif;
-		font-size: 16px;
+		font-size: 13px;
 	}
 	#scoreArea {
 		color: #F8F8FF;
 		font-family: times, Times New Roman, times-roman, georgia, serif;
 		font-size: 15px;
 		background-color: #776e65;
-		height: 50px;
+		height: 60px;
 	}
 	#newGameButton {
 		color: #F8F8FF;
-		font-size: 11px;
+		font-size: 9px;
 		font-family:  times, Times New Roman, times-roman, georgia, serif;
 		background-color: #f2b179;
-		width: 72px;
+		width: 74px;
 	}
 
 	td {
